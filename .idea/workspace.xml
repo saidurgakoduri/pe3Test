@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e508d766-d52a-4f89-9f07-fe42ad6ab30a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/ChessBoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ArrayException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/ArrayExceptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/ChessBoardTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,23 +18,26 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/ChessBoard.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/ArrayException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="135">
+              <caret line="9" column="70" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="70" />
               <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/ChessBoardTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/ArrayExceptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="57" column="76" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+            <state relative-caret-position="275">
+              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,6 +60,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/ChessBoard.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/ChessBoardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/ArrayException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/ArrayExceptionTest.java" />
       </list>
     </option>
   </component>
@@ -146,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545890642692" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545894026124" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
   </component>
@@ -170,6 +175,95 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.ArrayExceptionTest">
+    <configuration name="ArrayExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.ArrayExceptionTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayExceptionTest.checkIndex_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.ArrayExceptionTest" />
+      <option name="METHOD_NAME" value="checkIndex_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayExceptionTest.negativeIndexException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.ArrayExceptionTest" />
+      <option name="METHOD_NAME" value="negativeIndexException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayExceptionTest.nullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.ArrayExceptionTest" />
+      <option name="METHOD_NAME" value="nullPointerException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayExceptionTest.nullPointerException_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.ArrayExceptionTest" />
+      <option name="METHOD_NAME" value="nullPointerException_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayExceptionTest" />
+        <item itemvalue="JUnit.ArrayExceptionTest.nullPointerException_2" />
+        <item itemvalue="JUnit.ArrayExceptionTest.nullPointerException" />
+        <item itemvalue="JUnit.ArrayExceptionTest.checkIndex_1" />
+        <item itemvalue="JUnit.ArrayExceptionTest.negativeIndexException" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,6 +277,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ArrayExceptionTest_negativeIndexException - 2018.12.27 at 12h 20m 55s.xml">
+      <configuration name="ArrayExceptionTest.negativeIndexException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest - 2018.12.27 at 12h 21m 32s.xml">
+      <configuration name="ArrayExceptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest_checkIndex_1 - 2018.12.27 at 12h 22m 54s.xml">
+      <configuration name="ArrayExceptionTest.checkIndex_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest_checkIndex_1 - 2018.12.27 at 12h 23m 05s.xml">
+      <configuration name="ArrayExceptionTest.checkIndex_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest - 2018.12.27 at 12h 23m 20s.xml">
+      <configuration name="ArrayExceptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest_nullPointerException - 2018.12.27 at 12h 26m 03s.xml">
+      <configuration name="ArrayExceptionTest.nullPointerException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest_nullPointerException - 2018.12.27 at 12h 26m 18s.xml">
+      <configuration name="ArrayExceptionTest.nullPointerException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest_nullPointerException - 2018.12.27 at 12h 26m 27s.xml">
+      <configuration name="ArrayExceptionTest.nullPointerException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest_nullPointerException - 2018.12.27 at 12h 26m 48s.xml">
+      <configuration name="ArrayExceptionTest.nullPointerException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExceptionTest_nullPointerException - 2018.12.27 at 12h 27m 07s.xml">
+      <configuration name="ArrayExceptionTest.nullPointerException" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="810" extended-state="6" />
     <editor active="true" />
@@ -193,15 +319,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.33039647" />
+      <window_info anchor="bottom" id="Messages" weight="0.33039647" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32892805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -233,8 +359,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/ChessBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="57" column="76" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+        <state relative-caret-position="90">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/ArrayException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="70" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/ArrayExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
